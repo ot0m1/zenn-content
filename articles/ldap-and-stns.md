@@ -218,6 +218,7 @@ glibc は、`nsswitch.conf` に書かれた名前をもとに `libnss_<名前>.s
 | 観点 | LDAP系サーバー（OpenLDAP等） | STNS |
 |---|---|---|
 | プロトコル | LDAP | HTTP |
+| 認証方式 | パスワードで bind（pam_ldap） | 公開鍵を配布（sshd の AuthorizedKeysCommand） |
 | データモデル | 木（DIT）＋スキーマ | TOML（素朴・フラット） |
 | 守備範囲 | 汎用ディレクトリ（何でも入る） | Unixユーザー/グループに特化 |
 | 運用 | 重い・学習コスト高 | 軽い・学習コスト低 |
