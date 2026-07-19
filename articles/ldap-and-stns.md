@@ -159,7 +159,7 @@ passwd:  files ldap
 
 ## 6. STNSとは何か / どう解決したか
 
-そこで登場するのがSTNSです。**STNS＝Simple TOML Name Service**。pyama86 さんが作ったOSSで、名前がそのまま思想を表しています。「Simple（単純）」に、「TOML」で書く「Name Service（ネームサービス）」。
+そこで登場するのがSTNSです。**[STNS](https://github.com/STNS/STNS)＝Simple TOML Name Service**。pyama86 さんが作ったOSSで、名前がそのまま思想を表しています。「Simple（単純）」に、「TOML」で書く「Name Service（ネームサービス）」。
 
 LDAPと同じ仕事——中央でユーザーを管理し、各サーバーに配る——をしながら、STNSは§5で挙げた重さを、次のように削ぎ落としています。
 
